@@ -1,11 +1,17 @@
 import React from 'react'
 import "../assets/css/main.css"
+import Imagen0 from "../assets/images/pic00.jpg"
+import Imagen1petty from "../assets/images/Imagen1petty.jpg"
+import Pettyimg from "../assets/images/Pettyimg.png"
+import CoinApi1 from "../assets/images/CoinApi1.png"
+import AppTipico from "../assets/images/AppTipico.jpg"
+import Imagen5 from "../assets/images/pic05.jpg"
+import Imagen6 from "../assets/images/pic06.jpg"
 
 
 const HomePage = () => {
   return (
     <>
-Nav 
 			<div>
   <nav id="nav">
     <ul className="container">
@@ -15,12 +21,12 @@ Nav
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-Home
+
   <article id="top" className="wrapper style1">
     <div className="container">
       <div className="row">
         <div className="col-4 col-5-large col-12-medium">
-          <span className="image fit"><img src="images/pic00.jpg" alt /></span>
+          <span className="image fit"><img src={Imagen0} alt /></span>
         </div>
         <div className="col-8 col-7-large col-12-medium">
           <header>
@@ -32,7 +38,7 @@ Home
       </div>
     </div>
   </article>
-  //Work
+  
   <article id="work" className="wrapper style2">
     <div className="container">
       <header>
@@ -68,7 +74,7 @@ Home
       </footer>
     </div>
   </article>
-  //Portfolio 
+
   <article id="portfolio" className="wrapper style3">
     <div className="container">
       <header>
@@ -78,42 +84,49 @@ Home
       <div className="row">
         <div className="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src="images/pic01.jpg" alt /></a>
-            <h3><a href="#">Magna feugiat</a></h3>
-            <p>Ornare nulla proin odio consequat.</p>
+            <a href="#" className="image featured"><img src={Imagen1petty} alt /></a>
+            <h3><a href="#">Proyecto #1 -Landing de Negocio PETTY </a></h3>
+            <p>Enfocado en construir una página "landing" para vender servicios de belleza a domicilio.</p>
           </article>
         </div>
         <div className="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src="images/pic02.jpg" alt /></a>
-            <h3><a href="#">Veroeros primis</a></h3>
-            <p>Ornare nulla proin odio consequat.</p>
+            <a href="#" className="image featured"><img src={Pettyimg } alt /></a>
+            <h3><a href="#"> Proyecto #2 - Aplicación CRUD</a></h3>
+            <p>desarrolló una aplicación con operaciones CRUD.
+            AGREGAR,LEER,EDITAR,ELIMINAR.
+            </p>
           </article>
         </div>
         <div classname="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src="images/pic03.jpg" alt /></a>
-            <h3><a href="#">Lorem ipsum</a></h3>
-            <p>Ornare nulla proin odio consequat.</p>
+            <a href="#" className="image featured"><img src={CoinApi1} alt /></a>
+            <h3><a href="#"> Proyecto #3 - Tablero de Datos ("Dashboard")</a></h3>
+            <p>aplicación que consuma una API.
+            Crear un ambiente de desarrollo con Node.js
+            Conocer el funcionamiento de las APIs
+            Aplicar procesos síncronos y asíncronos en JavaScript
+            </p>
           </article>
         </div>
         <div className="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src="images/pic04.jpg" alt /></a>
-            <h3><a href="#">Tempus dolore</a></h3>
-            <p>Ornare nulla proin odio consequat.</p>
+            <a href="#" className="image featured"><img src={AppTipico} alt /></a>
+            <h3><a href="#">Proyecto #4 - Aplicación "Restaurante"</a></h3>
+            <p>Este proyecto está enfocado en construir una aplicación web para un restaurante.
+          </p>
           </article>
         </div>
         <div className="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src="images/pic05.jpg" alt /></a>
+            <a href="#" className="image featured"><img src={Imagen5} alt /></a>
             <h3><a href="#">Feugiat aliquam</a></h3>
             <p>Ornare nulla proin odio consequat.</p>
           </article>
         </div>
         <div className="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src="images/pic06.jpg" alt /></a>
+            <a href="#" className="image featured"><img src={Imagen6} alt /></a>
             <h3><a href="#">Sed amet ornare</a></h3>
             <p>Ornare nulla proin odio consequat.</p>
           </article>
@@ -125,7 +138,7 @@ Home
       </footer>
     </div>
   </article>
-  // Contact
+  
   <article id="contact" className="wrapper style4">
     <div className="container medium">
       <header>
@@ -166,10 +179,7 @@ Home
             <li><a href="#" className="icon brands fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
             <li><a href="#" className="icon brands fa-github"><span className="label">Github</span></a></li>
             <li><a href="#" className="icon brands fa-instagram"><span>Instagram</span></a></li>
-            
-           
-           
-            
+          
           </ul>
           <hr />
         </div>

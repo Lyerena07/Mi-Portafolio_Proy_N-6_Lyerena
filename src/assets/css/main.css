@@ -29,9 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
-	line-height: 1;
-}
+
 
 ol, ul {
 	list-style: none;
@@ -119,7 +117,7 @@ input, select, textarea {
 		}
 
 a img {
-			border: 0;
+		border: 0%;
 		}
 
 b, strong {
@@ -191,7 +189,7 @@ br.clear {
 		clear: both;
 	}
 
-hr {
+.hr {
 		border: 0;
 		border-top: solid 1px #444;
 		border-top-color: rgba(0, 0, 0, 0.35);
