@@ -3,10 +3,10 @@ import "../assets/css/main.css"
 import Imagen0 from "../assets/images/pic00.jpg"
 import Imagen1petty from "../assets/images/Imagen1petty.jpg"
 import Pettyimg from "../assets/images/Pettyimg.png"
-import CoinApi1 from "../assets/images/CoinApi1.png"
+//import CoinApi1 from "../assets/images/CoinApi1.png"
 import AppTipico from "../assets/images/AppTipico.jpg"
-import Imagen5 from "../assets/images/pic05.jpg"
-import Imagen6 from "../assets/images/pic06.jpg"
+import ComElec from "../assets/images/ComElec.jpg"
+import MiPort from "../assets/images/MiPort.jpg"
 
 
 const HomePage = () => {
@@ -70,7 +70,7 @@ const HomePage = () => {
       </div>
       <footer>
         <p>¿Es la satisfacción del cliente la primera prioridad?</p>
-        <a href="#portfolio" className="button large scrolly">See some of my recent work</a>
+        <a href="#portfolio" className="button large scrolly">Ver algunos de mis trabajos recientes</a>
       </footer>
     </div>
   </article>
@@ -79,7 +79,7 @@ const HomePage = () => {
     <div className="container">
       <header>
         <h2>Aqui mis proyectos creados segun requerimientos y temas vistos en la Ucamp!</h2>
-        <p>Frontened:Html5,css,JavaScript,React,Nodejs,Apis.- Backend: </p>
+        <p>Frontened:Html5,css,JavaScript,React,Apis.- Backend: Node con ExpressJS - Base de datos: MongoDB </p>
       </header>
       <div className="row">
         <div className="col-4 col-6-medium col-12-small">
@@ -100,8 +100,7 @@ const HomePage = () => {
         </div>
         <div classname="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src={CoinApi1} alt /></a>
-            <h3><a href="#"> Proyecto #3 - Tablero de Datos ("Dashboard")</a></h3>
+           <h3><a href="#"> Proyecto #3 - Tablero de Datos "Dashboard"</a></h3>
             <p>aplicación que consuma una API.
             Crear un ambiente de desarrollo con Node.js
             Conocer el funcionamiento de las APIs
@@ -119,22 +118,22 @@ const HomePage = () => {
         </div>
         <div className="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src={Imagen5} alt /></a>
-            <h3><a href="#">Feugiat aliquam</a></h3>
-            <p>Ornare nulla proin odio consequat.</p>
+            <a href="#" className="image featured"><img src={ComElec} alt /></a>
+            <h3><a href="#">Proyecto #5 - Aplicación de Comercio Electrónico</a></h3>
+            <p>proyecto  enfocado en construir una aplicación de eCommerce..</p>
           </article>
         </div>
         <div className="col-4 col-6-medium col-12-small">
           <article className="box style2">
-            <a href="#" className="image featured"><img src={Imagen6} alt /></a>
-            <h3><a href="#">Sed amet ornare</a></h3>
-            <p>Ornare nulla proin odio consequat.</p>
+            <a href="#" className="image featured"><img src={MiPort} alt /></a>
+            <h3><a href="#">Proyecto #6-Portafolio</a></h3>
+            <p> Este proyecto consta de la construcción de tu perfil profesional con respecto a todo lo que aprendiste.</p>
           </article>
         </div>
       </div>
       <footer>
-        <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-        <a href="#contact" className="button large scrolly">Get in touch with me</a>
+        <p>¿Es la satisfacción del cliente la primera prioridad?</p>
+        <a href="#contact" className="button large scrolly">Ponte en contacto con migo</a>
       </footer>
     </div>
   </article>
@@ -142,8 +141,8 @@ const HomePage = () => {
   <article id="contact" className="wrapper style4">
     <div className="container medium">
       <header>
-        <h2>Have me make stuff for you.</h2>
-        <p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+        <h2>Que mas te gustaria saber de mi?.</h2>
+        <p>La resciliencia es la clave del exito.</p>
       </header>
       <div className="row">
         <div className="col-12">
